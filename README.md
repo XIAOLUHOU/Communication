@@ -31,6 +31,11 @@ There are two C# programs demonstrating how RabbitMQ can be used for two process
    dotnet run AliceData.txt Received.txt
    ```
    similarly, there is a data file Communicate/Bob/BobData.txt for Bob.
+   By default, "AliceData.txt" and "BobData.txt" are the data files to send and "Received.txt" is the file to save the received data.
+   To use this default setting, run the following command in both terminals
+   ```bash
+   dotnet run
+   ```
    
 5. Presse enter to stop the processes after the data exchange was completed.
 
