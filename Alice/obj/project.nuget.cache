@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "3eONihg+nqqW+IdmChD5ZdZ5A51WsxZfWq7o6kWiImlwZCP9NMTZ6Ds1kc04C+CBBi0lcxOJW237G3ejzEEPMQ==",
+  "success": true,
+  "projectFilePath": "/Users/houxiaolu/Desktop/Communicate/Alice/Alice.csproj",
+  "expectedPackageFiles": [
+    "/Users/houxiaolu/.nuget/packages/rabbitmq.client/6.1.0/rabbitmq.client.6.1.0.nupkg.sha512",
+    "/Users/houxiaolu/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/houxiaolu/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
