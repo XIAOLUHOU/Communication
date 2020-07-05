@@ -1,0 +1,8 @@
+{
+    
+    "queues":[
+        {"name":"AtoB","vhost":"/","durable":true,"auto_delete":false,"arguments":{}},
+        {"name":"BtoA","vhost":"/","durable":true,"auto_delete":false,"arguments":{}}
+    ]
+
+}

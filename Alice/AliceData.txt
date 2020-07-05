@@ -1,0 +1,10 @@
+Hello! This is Alice
+A very long message - This algorithm supports key lengths of 128, 192, or 256 bits; defaulting to 256 bits. In .NET Framework, this algorithm supports block sizes of 128, 192, or 256 bits; defaulting to 128 bits (Aes-compatible). In .NET Core, it is the same as AES and supports only a 128-bit block size.
+Nikon D5600 Digital SLR Camera with 18-55mm VR Lens, Black
+Digital SLR camera
+5 frames per second
+3.2 inch Vari Angle Touch LCD
+ISO 100 to 25600
+Full HD Movies 1,920 x 1,080
+Wi-Fi, NFC, Bluetooth
+1 Year Camera Local (Singapore), Lens International Manufacturer Warranty

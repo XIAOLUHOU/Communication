@@ -1,0 +1,9 @@
+Hello! This is Bob
+Cryptographic Proofs
+Cryptographic proofs from raw data values are generated directly at the source to guarantee the data’s integrity and authenticity.
+Trust Channel
+In addition to the regular data transfer, the cryptographic proofs are transmitted by a separate secure communication channel to the trust layer.
+Hardware-based security
+The support of trusted execution environments for different types of devices provides the highest security level for the data verification process.
+Uncompromised scalability
+A very low footprint of memory- and computation-resources ensures a scalable data verification process on any granularity, even for high-frequency data streams.
