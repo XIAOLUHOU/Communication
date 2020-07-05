@@ -35,6 +35,7 @@ This a C# program demonstrating how RabbitMQ can be used for two processes to sh
 Here we discuss the advantages and disadvantages of this demonstration.
 
 Advantages:
+- Messages are encrypted before being sent
 - User does not need to install RabbitMQ locally
 - User can choose any file to share with each other
 - User can specify any file to save the received data
@@ -42,4 +43,5 @@ Advantages:
 Disadvantages:
 - There is no autentication and integrity check in place
 - The system does not deal with data loss during the communication
-- Messages are transmitted in plaintext, anyone listening on the port can read the message
+- There is no key exchange - keys are hardcoded in the programs
+- Same keys are used for every run of the program
