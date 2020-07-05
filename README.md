@@ -28,7 +28,7 @@ There are two C# programs demonstrating how RabbitMQ can be used for two process
    to start the programs in both terminals. Here "send.txt" is the file containing the data to send and "receive.txt" is the file to save the received data.
    For example, there is already a simple data file Communicate/Alice/AliceData.txt, we can initiate the program at the terminal for Alice using 
    ```bash
-   dotnet run AliceData.txt Received.txt"
+   dotnet run AliceData.txt Received.txt
    ```
    similarly, there is a data file Communicate/Bob/BobData.txt for Bob.
    
