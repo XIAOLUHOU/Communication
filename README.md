@@ -6,13 +6,12 @@ This a C# program demonstrating how RabbitMQ can be used for two processes to sh
 1. Install .NET Core runtime from https://dotnet.microsoft.com/download
 
 2. Deploy RabbitMQ on Docker
-  - download docker image rabbit.tar
-  - in the same directory as rabbit.tar
-  - run the following command to load the image to docker
+  - Go to DockerRabbit directory
+  - run the following command to build the docker image
   ```bash
-  docker load --input rabbit.tar
+  docker build -t rabbit .
   ```
-  - start rabbit on docker with the following command
+  - start the image on docker with the following command
   ```bash
   docker run -d --name rabbit-docker -p 15672:15672 -p 5672:5672 rabbit
   ```
