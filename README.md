@@ -1,11 +1,13 @@
 # Communication
-A simple example of communication through RabbitMQ
+A simple example of a two-way communication through RabbitMQ.
 
-This a C# program demonstrating how RabbitMQ can be used for two processes to share data with each other - the two processes are named Alice and Bob in our example.
+There are two C# programs demonstrating how RabbitMQ can be used for two processes to share data with each other - the two processes are named Alice and Bob in our example.
 
-1. Install .NET Core runtime from https://dotnet.microsoft.com/download
+1. Install .NET Core SDK from https://dotnet.microsoft.com/download
 
-2. Deploy RabbitMQ on Docker
+2. Install Docker from https://www.docker.com/products/docker-desktop
+
+3. Deploy RabbitMQ on Docker
   - Go to DockerRabbit directory
   - run the following command to build the docker image
   ```bash
@@ -17,7 +19,7 @@ This a C# program demonstrating how RabbitMQ can be used for two processes to sh
   ```
   Here we need to publish ports 15672 and 5672 so that RabbitMQ can be accessed from outside of the container.
   
-3. Open two terminals in directories Communicate/Bob and Communicate/Alice respectively.
+4. Open two terminals in directories Communicate/Bob and Communicate/Alice respectively.
    Use the command 
    ```bash
    dotnet run send.txt receive.txt
@@ -28,7 +30,7 @@ This a C# program demonstrating how RabbitMQ can be used for two processes to sh
    dotnet run AliceData.txt Received.txt"
    ```
    
-4. Presse enter to stop the processes.
+5. Presse enter to stop the processes.
 
 
 Here we discuss the advantages and disadvantages of this demonstration.
